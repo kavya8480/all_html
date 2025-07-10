@@ -1,0 +1,18 @@
+/* *{
+    margin: 5%;
+} */
+body{
+    background-color: rgb(223, 238, 238);
+}
+h1{
+    color: rgb(163, 15, 15);
+}
+#name {
+    color: rgb(169, 20, 127);
+}
+.obj {
+    color: rgb(2, 120, 39);
+}
+h2.obj {
+    font-size:20vh;
+}
