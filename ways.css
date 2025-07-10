@@ -10,9 +10,21 @@ h1{
 #name {
     color: rgb(169, 20, 127);
 }
+h3{
+    color: chartreuse;
+}
 .obj {
     color: rgb(2, 120, 39);
 }
 h2.obj {
     font-size:20vh;
+}
+h4{
+    color: #9dc919;           /*hex-code*/
+}
+h5{
+    color: hsl(308,93%,49%);    /* HSL */
+}
+h6{
+    color: hsla(142, 86%, 14%, 0.479);
 }
