@@ -1,0 +1,434 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <style>
+        body {
+            margin: 0.2px;
+          background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .image {
+            margin-top: 50px;
+            height: 300px;
+            background-image: url('building.jpg');
+            background-size: cover;
+            background-position: center;
+            border: 2px solid white;
+            margin-bottom: 20px;
+
+            h1 {
+                text-shadow: 2px 2px 2px;
+                text-align: center;
+                font-size: 50px;
+                font-weight: bold;
+                color: aliceblue;
+            }
+        }
+
+        #navbar {
+            top: 0;
+            width: 100%;
+            justify-content: space-evenly;
+            position: fixed;
+            background-color: rgb(180, 180, 243);
+            padding: 10px;
+            display: flex;
+        }
+
+        input {
+            font-size: medium;
+            font-weight: bold;
+            color: rgb(12, 0, 10);
+        }
+
+        #navname {
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        #sidename {
+            text-align: center;
+            font-size: 200%;
+            margin-left: 20px;
+        }
+
+        .contents {
+            font-size: 100%;
+            margin-left: 20px;
+            display: grid;
+        }
+
+       
+        
+
+        #container {
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+          
+        }
+
+        #center {
+            grid-row-start: auto;
+            text-align: center;
+            padding: 20px;
+           
+        }
+
+        #def {
+            
+            box-sizing: border-box;
+            border: 1px solid rgba(0, 0, 0, .15);
+            padding: var(--space-24);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+        }
+
+        .dot {
+            list-style-position: outside;
+            text-align: center;
+            padding: 20px;
+        }
+
+        li {
+            : :marker text-align: center;
+            font-size: 18px
+        }
+
+        .foot {
+            margin-top: 3300px;
+            height: 200px;
+            background-color: aqua;
+            padding: 30px 20px;
+            color: #333;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+
+        }
+
+        .links a {
+            font-size: 100px;
+            font-style: italic;
+            font-weight: bolder;
+            color: #333;
+            font-size: 14px;
+        }
+        .media{
+            font-size: medium;
+            font-weight: 300;
+        }
+        h3{
+            font-size: larger;
+        }
+        h2{
+            font-size: larger;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <div>
+                <label id="navname" for="name">INVESTOPEDIA</label>
+            </div>
+            <a href="https://www.investopedia.com/news-4427706">
+                <input type="button" value="News">
+            </a>
+            <a href="https://www.investopedia.com/investing-4427685">
+                <input type="button" value="Investing">
+            </a>
+            <a href="https://www.investopedia.com/simulator/?inv_to_sim=global_nav">
+                <input type="button" value="Simulator">
+            </a>
+            <a href="https://www.investopedia.com/banking-4427754">
+                <input type="button" value="Banking">
+            </a>
+            <a href="https://www.investopedia.com/personal-finance-4427760">
+                <input type="button" value="Personal Finance">
+            </a>
+            <a href="https://www.investopedia.com/economy-4689801">
+                <input type="button" value="Economy">
+            </a>
+            <a href="https://www.investopedia.com/financial-product-reviews-7110783">
+                <input type="button" value="Reviews">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="image">
+            <h1>WELCOME <br> TO OUR WEBSITE</h1>
+        </div>
+        <div id="container">
+            <label id="sidename" for="name">Table of contents <br></label>
+            <label class="contents" for="L1">What Is Social Media?<br></label>
+            <label class="contents" for="L2">Origins and Evolution<br></label>
+            <label class="contents" for="L3">Uses Today<br></label>
+            <label class="contents" for="L4">Pros and Cons<br></label>
+            <label class="contents" for="L5">Top Platforms<br></label>
+            <label class="contents" for="L6"> Bottom Line<br></label>
+            <div id="center">
+                <h1 id="social">Social Media: <br>Definition, Importance, Top Websites,<br> and Apps</h1>
+
+                <img src="social-media-final-8f48359ac9e7486eaf40932f4a9e2597.webp" alt="">
+                <p id="def">Definition: <br>
+                    Social media is a form of digital communication that allows users <br>
+                    to form online networks and communities for socializing, sharing<br>
+                    information, and posting user-created content.</p>
+                <p class="media">
+                <h3>What Is Social Media? </h3><br>
+                Social media refers to online platforms where users can share information and connect with virtual <br>
+                communities through text, video, photos, and other content. As of 2024, social media had more than <br>
+                five billion global users, which is equal to more than 62% of the world population.<br>
+                DataReportal. “Digital 2024: Global Overview Report.”<br>
+
+                This includes apps or websites designed for messaging and chat, social platforms<br>
+                (like Facebook, Instagram, and TikTok), and community forums, such as Reddit and Discord.</p>
+
+                <p class="media">
+                <h3>Keys Takeaways: </h3><br>
+                <ul>
+                    <li> Social media is made up of websites, apps, and other platforms that allow users to share
+                        information<br>
+                        and ideas with virtual communities through text, photos, videos, and more.<br> </li>
+                    <li>It is used by more than 5 billion people globally for personal and professional reasons.<br>
+                    </li>
+                    <li>Social media has been credited with connecting users, allowing for community building and
+                        sharing<br>
+                        important information.<br></li>
+                    <li>Critics say social media damages adolescents' mental health, facilitates misinformation,<br>
+                        and increases opportunities for child sexual abuse.<br></li>
+                    <li>The largest social media platforms are Facebook, YouTube, WhatsApp, Instagram, and TikTok.</li>
+                </ul>
+                </p>
+                <p class="media">
+                <h3>Origins and Evolution of Social Media</h3>
+                Early social media platforms, such as MySpace and LiveJournal, were designed for people to connect
+                with<br>
+                friends and family. MySpace, which allowed users to create personal profile pages and share information
+                about<br>
+                themselves, became the first network to reach one million active monthly users in 2004.<br>
+                LiveJournal, a platform where users could share journal-like entries with either public or private
+                networks,
+                reached <br>
+                over 2.5 million active accounts in 2005.<br>
+                Social media use grew rapidly in the 2000s and early 2010s as Facebook and X (formerly Twitter) became
+                popular.<br>
+                Like MySpace, Facebook users create profiles to share information about themselves, while other users
+                leave
+                comments.<br>
+                Initially used for socializing among college-age users, social media became popular with younger and
+                older
+                users.<br>
+                In 2006, X's launch included its feed feature, where posts from accounts that a user followed were
+                aggregated onto a <br>
+                single page.<br>
+                History. "2006: Twitter Launches."<br>
+                Facebook launched its own News Feed feature.<br>
+                The news feed became a standard feature for many social media platforms.<br>
+                More users began posting links to external sites, where news stories, current events, and product pages
+                could be <br>
+                shared with personal updates. Users could interact with each other's content, including liking, sharing,
+                and<br>
+                commenting on posts.<br>
+                <p class="media">
+                    During this time, social media platforms began adding business-specific profile pages and the
+                    ability to
+                    purchase targeted<br>
+                    ads that other users would see, making them more business-friendly and increasing revenue for the
+                    platforms.<br>
+                    Social media users began spending more time scrolling through feeds and consuming daily news and
+                    commentary on current<br>
+                    events. By 2024, just over half (54%) of adults in the U.S. said they get their news from social
+                    media
+                    "sometimes" or "often."<br>
+                    Only 28% of U.S. adults say they "never" get the news from social media.<br>
+                    Globally, only 22% of consumers get their news directly from news websites or apps, with younger
+                    news
+                    consumers the least <br>
+                    likely to do so. </p>
+                </p>
+                <p class="media">
+                <h3>How Social Media Is Used Today
+                </h3>
+                As users continued to spend more time on social media sites, different types of social media platforms
+                evolved.
+                They can be broadly categorized as:
+                <ul>
+                    <li>Social networks: Facebook, NextDoor</li>
+                    <li>Microblogging: X, BlueSky, Mastodon, Threads</li>
+                    <li>Long-form blogging: Substack, Ghost</li>
+                    <li>Professional networking: LinkedIn, Behance, ResearchGate</li>
+                    <li>Video and photo sharing: Instagram, TikTok, YouTube, Snapchat</li>
+                    <li>Visual curation and search: Pinterest, Houzz, DeviantArt</li>
+                    <li>Messaging: WhatsApp, Signal, WeChat, Marco Polo</li>
+                    <li>Community forums: Reddit, Discord, Clubhouse</li>
+                </ul>
+                <br>
+                Platforms are oriented toward different uses and users. Some may be used purely for socializing, while
+                others are <br>
+                oriented toward professional network building or job-hunting. Some platforms allow users to connect with
+                others who <br>
+                share their political views or leisure hobbies.
+                <br>
+                Many social media users are acting in a professional capacity. For instance:<br>
+                <ul>
+                    <li>Actors and writers can use social media to connect with fans of their work</li>
+                    <li>Politicians use them to communicate with constituents and voters</li>
+                    <li>Nonprofit organizations may use them to promote charitable causes or collect donations</li>
+                    <li>Government agencies can use social media to communicate with the public during emergencies.</li>
+                </ul>
+                Posting content on social media, either sponsored by a business or funded through follower support, can
+                also
+                be a job in <br>
+                itself, separate from any outside work that the social media posts are promoting. These types of social
+                media users are<br>
+                generally referred to as influencers or content creators. One in five social media users consider
+                themselves
+                professional <br>
+                content creators.
+                <br>
+                Social media is also an important form of marketing for many companies. Businesses use social media to
+                identify and capitalize on <br>
+                consumer trends, engage with customers, collect consumer data, and pay for targeted advertising. Many
+                also
+                work with influencers,<br>
+                paying content creators to promote their products or services directly to the influencers' audience or
+                followers.<br>
+                </p>
+                <p class="media">
+                <h3>Advantages and Disadvantages of Social Media
+                </h3>
+                <h2> Pros
+                </h2>
+                <ul class="box">
+                    <li>Connectivity</li>
+
+                    <li>Build community</li>
+
+                    <li>Affordable advertising</li>
+                </ul>
+                <h2>
+                    Cons
+                </h2>
+                <ul class="box">
+                    <li>Disinformation/misinformation</li>
+                    <li>Sleep disruption</li>
+                    <li>Mental health impact</li>
+                    <li>Child sexual exploitation</li>
+                </ul>
+                <h2>Advantages Explained</h2>
+                <ul>
+                    <li>Connectivity: Social media platforms allow people to access global information and connect with
+                        friends<br>
+                        and family at a distance. It can allow users to find niche communities around their interests or
+                        current<br>
+                        needs, such as neighborhood forums or job searching.</li><br>
+                    <li>Build community: Using social media is correlated to having more friends and a personal network
+                        with greater diversity,<br>
+                        especially in emerging economies. Social media users are more likely to interact with those who
+                        are different from them<br>
+                        across categories of income, political party, religion, or ethnicity.</li><br>
+                    <li>Affordable advertising: Small businesses and creators can reach potential customers at low price
+                        points through targeted ads <br>
+                        and influencer marketing. More than 200 million small businesses use Facebook.<br>
+                        In 2024, online advertising, including social media and search advertising, accounted for 59% of
+                        global ad spending; that number<br>
+                        is projected to grow to 61% in 2026.<br></li>
+                </ul>
+                <h2>Disadvantages Explained</h2>
+                <ul>
+                    <li>Disinformation/misinformation: The ease of sharing links and posts on social media can
+                        facilitate the spread of<br>
+                        disinformation or misinformation. For instance, misinformation about Hurricane Helene hampered
+                        recovery efforts<br>
+                        in the southern U.S. and harmed local communities impacted by the disaster in 2024.<br>
+
+                    <li>Sleep disruption: Social media use is correlated with less and poor quality sleep, especially
+                        among teens and young adults.<br>
+                        Poor sleep is associated with a variety of health problems, including heart disease, high blood
+                        pressure, diabetes, obesity, and depression.</li> <br>
+                    <li>Mental health impact: Research has also found a direct correlation between more social media use
+                        and higher rates of depression among teens.<br>
+                        Other mental health concerns related to social media use include bullying, peer pressure,
+                        spreading rumors about peers and friends, and the<br>
+                        creation of unrealistic expectations based on exposure to other people's lives.</li><br>
+                    <li>Child sexual abuse: In 2022, research found that more than one in six U.S. children experience
+                        sexual abuse online.<br>
+                        Studies in other countries have found even higher rates. Social media can provide a platform for
+                        child sexual abuse <br>
+                        and exploitation including grooming, stalking, sharing of explicit materials, revenge
+                        pornography, and nonconsensual sexting.</li><br>
+                </ul>
+                </p>
+                <P class="media">
+                <h3>Top 10 Global Social Media Platforms</h3>
+                The average social media user spends two hours and 21 minutes each day on social media, visiting an
+                average of 6.8 different social media <br>
+                platforms each month. These were the most widely used social media providers as of February 2025,
+                according to DataReportal:<br>
+                <ol>
+                    <li>Facebook (3.07 billion users)</li>
+                    <li>YouTube (2.53 billion users)</li>
+                    <li>WhatsApp (2 billion users)</li>
+                    <li>Instagram (2 billion users)</li>
+                    <li>TikTok (1.59 billion users)</li>
+                    <li>WeChat (1.38 billion users)</li>
+                    <li>Telegram (950 million users)</li>
+                    <li>Facebook Messenger (947 million users)</li>
+                    <li>Snapchat (850 million users)</li>
+                    <li>Douyin (766 million users)
+                    </li>
+                </ol>
+                Interestingly, two that are especially well-known in the U.S.—X and Pinterest—didn’t make the top 10
+                list globally. X was 14th, <br>
+                with 586 million users worldwide, while Pinterest was 16th with 537 million.
+                </P>
+                <p class="media">
+                <h3>The Bottom Line</h3>
+                Since the early 2000s, social media has reshaped how people interact online, impacting community
+                building, news, politics,<br>
+                entertainment, and advertising. Despite the downsides, including the spread of misinformation and child
+                sexual exploitation, <br>
+                social media continues to grow each year.<br>
+
+                With more than five billion users worldwide spending an average of over two hours per day on its apps
+                and websites,<br>
+                social media has become one of the most important ways for individuals, businesses, creators, and
+                politicians to<br>
+                connect with one another.
+
+
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+
+            <label for="name">INVESTOPEDIA</label>
+            <div class="links">
+                <a href="https://www.investopedia.com/about-us-5093223">About Us</a>
+                <a href="https://www.dotdashmeredith.com/brands-termsofservice">Terms of service</a>
+                <a href="https://www.investopedia.com/financial-term-dictionary-4769738">Dictionary</a>
+                <a href="https://www.investopedia.com/legal-4768893#toc-editorial-policy">Editorial policy</a>
+                <a href="https://www.dotdashmeredith.com/advertising">Advertising</a>
+                <a href="https://support.investopedia.com/hc/en-us/requests/new?ticket_form_id=28253561437079">Contact
+                    Us</a>
+                <a href="https://www.dotdashmeredith.com/careers">Carrers</a>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
