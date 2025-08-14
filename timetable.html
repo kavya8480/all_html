@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <style>
+        .timetable {
+            display: grid;
+            grid-template-columns: 100px repeat(7, 120px);
+            grid-template-columns: 150px 160px 165px 180px 190px 200px 210px 220px;
+            grid-template-rows: 55px 65px 75px 85px 95px 105px 115px;
+            border: 1px solid black;
+            text-align: center;
+            margin-left: 50px;
+        }
+
+        .timetable div {
+            border: 1px solid black;
+            padding: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center;">B.TECH-CSE, 5TH SEMESTER</h2>
+    
+        <div class="timetable">
+            <!-- header  -->
+            <div>DAY</div>
+            <div style="background-color: darksalmon;">9:30-10:25 <br>(2ND)</div>
+            <div style="background-color: darksalmon;">10:25-11:20 <br>(3RD)</div>
+            <div style="background-color: darksalmon;">11:20-12:15 <br>(4TH)</div>
+            <div style="background-color: darksalmon;">12:15-01:10 <br>(5TH)</div>
+            <div style="background-color: darksalmon;">01:10-02:05b <br>(6TH)</div>
+            <div style="background-color: darksalmon;">02:05-03:00 <br>(7TH)</div>
+            <div style="background-color: darksalmon;">03:00-03:55 <br>(8TH)</div>
+            <!-- monday  -->
+            <div style="background-color: hotpink;">MON</div>
+            <div style="grid-column: span 3;background-color: cornflowerblue;">TC LAB</div>
+            <div
+                style="writing-mode: vertical-rl;text-orientation: upright; letter-spacing: 2px; grid-row: span 6; width: 50%; border: 1px solid white;">
+                LUNCH</div>
+            <div style="background-color: cyan;">ED</div>
+            <div style="background-color: darkorchid;">OOAD</div>
+            <div style="background-color: chartreuse;">TC</div>
+            <!-- tuesday -->
+            <div style="background-color: hotpink;">TUES</div>
+            <div style="background-color: cyan;">ED</div>
+            <div style="background-color:darkorchid;">OOAD</div>
+            <div style="background-color: aquamarine;">OS</div>
+            <!-- <div>lunch</div> -->
+            <div>EVS.E</div>
+            <div style="background-color: aquamarine;">OS</div>
+            <div style="background-color: chartreuse;">TC</div>
+            <!-- wednesday  -->
+            <div style="background-color: hotpink;">WED</div>
+            <div style="background-color: aquamarine;">OS</div>
+            <div style="grid-column: span 2; background-color: cadetblue">AIML</div>
+            <!-- <div>lunch</div> -->
+            <div style="grid-column: span 3;background-color: cornflowerblue;">OS LAB</div>
+            <!-- thursday  -->
+            <div style="background-color: hotpink;">THURS</div>
+            <div>EVS.E</div>
+            <div style="background-color: chartreuse;">TC</div>
+            <div style="background-color: darkorchid;">OOAD</div>
+            <!-- <div>lunch</div> -->
+            <div style="background-color: cyan;">ED</div>
+            <div style="background-color: cadetblue;">AIML</div>
+            <div>LIB.</div>
+            <!-- friday  -->
+            <div style="background-color: hotpink;">FRI</div>
+            <div style="background-color: aquamarine;">OS</div>
+            <div style="background-color: darkorchid;">OOAD</div>
+            <div style="background-color: chartreuse;">TC</div>
+            <!-- <div>lunch</div> -->
+            <div style="background-color: cadetblue ;">AIML</div>
+            <div>SEMINAR</div>
+            <div>EVS.E</div>
+            <!-- saturday  -->
+            <div style="background-color: hotpink;">SAT</div>
+            <div style="grid-column: span 3; background-color: cornflowerblue;">AIML LAB</div>
+            <!-- <div>lunch</div> -->
+            <div style="grid-column: span 3; background-color: goldenrod;">ACTIVITY</div>
+
+        </div>
+
+</body>
+
+</html>
